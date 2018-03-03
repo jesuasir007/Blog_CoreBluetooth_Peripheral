@@ -193,8 +193,13 @@
 				TargetAttributes = {
 					309B70461FFF30BF001BA4C1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = DS57NS4CYB;
+						DevelopmentTeam = WC64T22ANZ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					309B705A1FFF30BF001BA4C1 = {
 						CreatedOnToolsVersion = 8.1;
@@ -415,8 +420,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DS57NS4CYB;
+				DEVELOPMENT_TEAM = WC64T22ANZ;
 				INFOPLIST_FILE = Peripheral/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hahahanotoomuch.Peripheral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,8 +434,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DS57NS4CYB;
+				DEVELOPMENT_TEAM = WC64T22ANZ;
 				INFOPLIST_FILE = Peripheral/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hahahanotoomuch.Peripheral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +521,7 @@
 				309B70711FFF30BF001BA4C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		309B70721FFF30BF001BA4C1 /* Build configuration list for PBXNativeTarget "PeripheralTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +530,7 @@
 				309B70741FFF30BF001BA4C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		309B70751FFF30BF001BA4C1 /* Build configuration list for PBXNativeTarget "PeripheralUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +539,7 @@
 				309B70771FFF30BF001BA4C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
